@@ -1,0 +1,34 @@
+@import '../../../sass/sassStyles/variables';
+.searchbarmain {
+  height: 50px;
+  width: 100%;
+  padding: 0 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9edef;
+  .input {
+    height: calc(100% - 12px);
+    width: calc(100% - 26px);
+    background-color: $gray;
+    border-radius: 8px;
+    padding-right: 32px;
+    padding-left: 65px;
+    display: flex;
+    align-items: center;
+    position:relative;
+    .searchicon{
+        svg{
+            position: absolute;
+            left:15px;
+            top:50%;
+            transform: translateY(-50%);
+        }
+    }
+    input {
+        background-color: $gray;
+        border:0;
+        width: 100%;
+    }
+  }
+}

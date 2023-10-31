@@ -1,0 +1,8 @@
+.mainbox{
+    max-width: 1475px;
+    min-width: calc(100vh - 36px);
+    margin: 0 auto;
+    height: calc(100vh - 36px);
+    background-color: #ddd;
+    display: flex;
+}

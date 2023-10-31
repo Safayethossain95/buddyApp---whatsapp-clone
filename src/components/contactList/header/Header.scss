@@ -1,0 +1,16 @@
+@import '../../../sass/sassStyles/variables';
+.headermain{
+    background-color: $gray;
+    height: 60px;
+    max-width: 480px;
+    padding:0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .iconwrapper{
+        div{
+            margin:0 12px;
+        }
+    }
+}

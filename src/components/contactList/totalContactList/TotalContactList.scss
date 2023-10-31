@@ -1,0 +1,36 @@
+@import "../../../sass/sassStyles/variables";
+@import "../../../sass/sassStyles/mixins";
+
+.totalcontactlist {
+  padding: 0 10px;
+  background-color: #fff;
+  height: calc(100% - 110px);
+  overflow-y: scroll;
+}
+.singlecontactitem {
+  .svgwrap {
+    svg {
+      width: 50px;
+      height: 50px;
+      margin-right: 16px;
+    }
+  }
+  img {
+    width: 50px;
+    margin-right: 16px;
+    border-radius: 50%;
+  }
+  p {
+    @include myfont(17px, 400, $main_font);
+    color: #111b21;
+  }
+  .smtext {
+    @include myfont(14px, 400, $main_font);
+    color: #667781;
+  }
+  .rightside {
+    width: 100%;
+    border-bottom: 1px solid #e9edef;
+    padding: 11px 0;
+  }
+}

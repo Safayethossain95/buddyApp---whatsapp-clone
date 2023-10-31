@@ -1,0 +1,24 @@
+@import '../../sass/sassStyles/variables';
+.mainwrapper{
+    position: relative;
+    
+    .mainbg{
+        position: absolute;
+        height: 100vh;
+        background-color: $bgnormal;
+        top:0;
+        left:0;
+        width: 100%;
+        z-index: -1;
+        padding-top: 18px;
+        .themecolorstripe{
+            position: absolute;
+            width: 100%;
+            height: 128px;
+            top:0;
+            left:0;
+            background-color: $theme_color;
+            z-index: -1;
+        }
+    }
+}
