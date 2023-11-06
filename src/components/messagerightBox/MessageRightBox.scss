@@ -1,0 +1,51 @@
+.messagerightbox{
+    position:relative;
+    .messagemainarea{
+        height: calc(100% - 120px);
+        background: url(../../../public/images/chatbg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bottominputbox{
+        position:absolute;
+        bottom:0;
+        left:0;
+        width: 100%;
+        height: 60px;
+        background-color: #e9edef;
+        padding: 5px 16px;
+        
+    }
+    .messagemainarea{
+        padding: 20px;
+        .innerwrap{
+            position: absolute;
+            bottom:70px;
+            left:20px;
+            width: calc(100% - 40px);
+            .msgcontainer{
+                display: flex;
+                flex-direction: column;
+                
+
+            }
+        }
+        .sendermessagediv{
+            padding:6px 7px 8px 9px;
+            border-radius: 10px;
+            background-color: #fff;
+            display: block;
+            align-self: flex-start;
+            margin-bottom: 4px;
+        }
+        .receivermessagediv{
+            padding:6px 7px 8px 9px;
+            border-radius: 10px;
+            background-color: #d9fdd3;
+            display: block;
+            align-self: flex-end;
+            margin-bottom: 4px;
+        }
+    }
+}

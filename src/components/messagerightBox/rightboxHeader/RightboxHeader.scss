@@ -1,4 +1,5 @@
 @import '../../../sass/sassStyles/variables';
+@import '../../../sass/sassStyles/mixins';
 .rightboxheader{
     height: 60px;
     background-color: $gray;
@@ -7,8 +8,11 @@
     align-items: center;
     padding:0 15px;
     border-left: 1px solid $deep_border;
+    p{
+        @include myfont(15px,400,$main_font);
+    }
     .imgbox{
-
+        margin-right: 15px;
         svg{
             width: 40px;
             height: 40px;
